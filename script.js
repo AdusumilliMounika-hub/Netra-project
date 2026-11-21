@@ -3,4 +3,4 @@ function updateclock(){
    if(clock) clock.content=new Date().toLocaltimeString();
 }
 updateclock();
-setInterval
+setInterval(updateclock,1000);
